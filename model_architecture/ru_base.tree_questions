@@ -1,0 +1,68 @@
+WDBNDRY_B
+WDBNDRY_E
+WDBNDRY_S
+WDBNDRY_I
+SILENCE   SIL
+QUESTION0_0_R  b bj c ch d dj f fj g h k kj m mj n nj p pj s sch sh sj t tj v z zh zj
+QUESTION0_1_R  b bj c d dj g k kj m mj n nj p pj t tj v
+QUESTION0_2_R  c k kj p pj t tj v
+QUESTION0_3_R  b bj d dj g m mj n nj
+QUESTION0_4_R  m mj n nj
+QUESTION0_5_R  b bj d dj g
+QUESTION0_6_R  ch f fj h s sch sh sj z zh zj
+QUESTION0_7_R  ch f fj h sch sh zh
+QUESTION0_8_R  sch sh zh
+QUESTION0_9_R  ch f fj h
+QUESTION0_10_R  ch f fj
+QUESTION0_11_R  f fj
+QUESTION0_12_R  s sj z zj
+QUESTION0_13_R  a0 e0 gj hj i0 j l lj o0 r rj u0 vj y0
+QUESTION0_14_R  a0 l o0 r u0 y0
+QUESTION0_15_R  e0 gj hj i0 j lj rj vj
+QUESTION0_16_R  e0 i0 j
+QUESTION0_17_R  gj hj lj rj vj
+QUESTION0_18_R  rj vj
+QUESTION0_19_R  gj hj lj
+QUESTION0_20_R  gj hj
+QUESTION0  b bj c ch d dj f fj g h hj k kj p pj r s sch sh sj t tj z zh zj
+QUESTION1  c ch f fj hj s sch sh sj z zh zj
+QUESTION2  ch sch sh zh
+QUESTION3  c f fj hj s sj z zj
+QUESTION4  z zj
+QUESTION5  c f fj hj s sj
+QUESTION6  c s
+QUESTION7  f fj hj sj
+QUESTION8  f fj hj
+QUESTION9  f hj
+QUESTION10  b bj d dj g h k kj p pj r t tj
+QUESTION11  g h k r
+QUESTION12  b bj d dj kj p pj t tj
+QUESTION13  a0 e0 gj i0 j l lj m mj n nj o0 rj u0 v vj y0
+QUESTION14  j l lj m mj n nj u0 v vj
+QUESTION15  a0 e0 gj i0 o0 rj y0
+QUESTION16  a0 o0
+QUESTION17  e0 gj i0 rj y0
+QUESTION18  rj y0
+QUESTION19  e0 gj i0
+QUESTION20  gj i0
+QUESTION2_0_L  b bj c ch d dj f hj k kj nj p pj s sch sh sj t tj z zh zj
+QUESTION2_1_L  c ch f hj kj s sch sh sj tj z zh zj
+QUESTION2_2_L  c s
+QUESTION2_3_L  ch f hj kj sch sh sj tj z zh zj
+QUESTION2_4_L  f sh z zh
+QUESTION2_5_L  f sh zh
+QUESTION2_6_L  f sh
+QUESTION2_7_L  ch hj kj sch sj tj zj
+QUESTION2_8_L  ch sch
+QUESTION2_9_L  hj kj sj tj zj
+QUESTION2_10_L  sj tj zj
+QUESTION2_11_L  hj kj
+QUESTION2_12_L  b bj d dj k nj p pj t
+QUESTION2_13_L  a0 e0 fj g gj h i0 j l lj m mj n o0 r rj u0 v vj y0
+QUESTION2_14_L  fj h i0 j lj mj rj u0 vj y0
+QUESTION2_15_L  lj rj vj
+QUESTION2_16_L  fj h i0 j mj u0 y0
+QUESTION2_17_L  fj h u0
+QUESTION2_18_L  fj h
+QUESTION2_19_L  i0 j mj y0
+QUESTION2_20_L  a0 e0 g gj l m n o0 r v

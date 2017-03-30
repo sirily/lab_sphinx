@@ -1,0 +1,37 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dictfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+-example	no	no
+-fdictfn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+-help		no	no
+-ignorewpos	no	no
+-inCDmdef		
+-inCImdef		
+-lsnfn			
+-maxtriphones	100000	100000
+-minocc		1	1
+-n_state_pm	3	3
+-oalltphnmdef		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.alltriphones.mdef
+-ocimdef		
+-ocountfn		
+-ountiedmdef		
+-phnlstfn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.phonelist
+-triphnlstfn		
+
+INFO: main.c(94): Will write alltriphone mdef file /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.alltriphones.mdef
+INFO: mk_mdef_gen.c(189): 0 single word triphones in input phone list
+INFO: mk_mdef_gen.c(190): 0 word beginning triphones in input phone list
+INFO: mk_mdef_gen.c(191): 0 word internal triphones in input phone list
+INFO: mk_mdef_gen.c(192): 0 word ending triphones in input phone list
+INFO: mk_mdef_gen.c(280): Reading dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+INFO: mk_mdef_gen.c(322): 3453 words in dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+INFO: mk_mdef_gen.c(280): Reading dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+INFO: mk_mdef_gen.c(322): 3 words in dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+INFO: mk_mdef_gen.c(442): 3456 words in dictionary
+INFO: mk_mdef_gen.c(443): 20664 unique single word triphones in dictionary
+INFO: mk_mdef_gen.c(444): 11700 unique word beginning triphones in dictionary
+INFO: mk_mdef_gen.c(445): 3748 unique word internal triphones in dictionary
+INFO: mk_mdef_gen.c(446): 11152 unique word ending triphones in dictionary
+INFO: mk_mdef_gen.c(897): 43 n_base, 47264 n_tri
+INFO: mk_mdef_gen.c(969): Wrote mdef file /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.alltriphones.mdef
+Mon Mar 20 21:40:48 2017

@@ -1,0 +1,24 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/mixture_weights
+-moddeffn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.ci.mdef
+-ndensity	256	1
+-nstream	4	1
+-tmatfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/transition_matrices
+-topo			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.topology
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 43 total models defined (43 base, 0 tri)
+INFO: model_def_io.c(575): 172 total states
+INFO: model_def_io.c(576): 129 total tied states
+INFO: model_def_io.c(577): 129 total tied CI states
+INFO: model_def_io.c(578): 43 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3tmat_io.c(176): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/transition_matrices [43x3x4 array]
+INFO: s3mixw_io.c(233): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/mixture_weights [129x1x1 array]
+main.c(83): Reading model definition file /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.ci.mdef
+main.c(90): 43 models defined
+Sun Mar 19 21:04:32 2017

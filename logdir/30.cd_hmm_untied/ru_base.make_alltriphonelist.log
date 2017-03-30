@@ -1,0 +1,50 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dictfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+-example	no	no
+-fdictfn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+-help		no	no
+-ignorewpos	no	no
+-inCDmdef		
+-inCImdef		
+-lsnfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base_train.transcription
+-maxtriphones	100000	100000
+-minocc		1	1
+-n_state_pm	3	3
+-oalltphnmdef		
+-ocimdef		
+-ocountfn		
+-ountiedmdef		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.untied.mdef
+-phnlstfn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.phone
+-triphnlstfn		
+
+INFO: main.c(95): Will write untied mdef file /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.untied.mdef
+INFO: mk_mdef_gen.c(189): 0 single word triphones in input phone list
+INFO: mk_mdef_gen.c(190): 0 word beginning triphones in input phone list
+INFO: mk_mdef_gen.c(191): 0 word internal triphones in input phone list
+INFO: mk_mdef_gen.c(192): 0 word ending triphones in input phone list
+INFO: mk_mdef_gen.c(280): Reading dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+INFO: mk_mdef_gen.c(322): 3453 words in dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+INFO: mk_mdef_gen.c(280): Reading dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+INFO: mk_mdef_gen.c(322): 3 words in dict /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.filler
+INFO: mk_mdef_gen.c(442): 3456 words in dictionary
+INFO: mk_mdef_gen.c(443): 20664 unique single word triphones in dictionary
+INFO: mk_mdef_gen.c(444): 11700 unique word beginning triphones in dictionary
+INFO: mk_mdef_gen.c(445): 3748 unique word internal triphones in dictionary
+INFO: mk_mdef_gen.c(446): 11152 unique word ending triphones in dictionary
+INFO: mk_mdef_gen.c(479): Out of vocabulary words in transcript will be mapped to SIL!
+INFO: mk_mdef_gen.c(593): 73091 words in transcripts
+INFO: mk_mdef_gen.c(594): 5682 single word triphones in transcripts
+INFO: mk_mdef_gen.c(595): 52382 word beginning triphones in transcripts
+INFO: mk_mdef_gen.c(596): 194306 word internal triphones in transcripts
+INFO: mk_mdef_gen.c(597): 52382 word ending triphones in transcripts
+INFO: mk_mdef_gen.c(640): 304752 triphones extracted from transcripts
+INFO: mk_mdef_gen.c(641): 9372 unique triphones extracted from transcripts
+INFO: mk_mdef_gen.c(642): 2370 triphones occur once in the transcripts
+INFO: mk_mdef_gen.c(643): 952 triphones occur twice in the transcripts
+INFO: mk_mdef_gen.c(644): 382 triphones occur thrice in the transcripts
+INFO: mk_mdef_gen.c(645): The rest of the triphones occur more than three times
+INFO: mk_mdef_gen.c(646): Count threshold is 1
+INFO: mk_mdef_gen.c(897): 43 n_base, 9372 n_tri
+INFO: mk_mdef_gen.c(969): Wrote mdef file /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.untied.mdef
+Sun Mar 19 21:50:03 2017

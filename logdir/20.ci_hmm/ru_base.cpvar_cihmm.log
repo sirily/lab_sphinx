@@ -1,0 +1,149 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-cpopsfn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.cpmeanvar
+-example	no	no
+-help		no	no
+-ifullgaufn		
+-igaufn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/globalvar
+-imixwfn		
+-itmatfn		
+-ncbout			129
+-nmixwout		0
+-ntmatout		0
+-ofullgaufn		
+-ogaufn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/variances
+-omixwfn		
+-otmatfn		
+
+INFO: s3gau_io.c(169): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/globalvar [1x1x1 array]
+INFO: s3gau_io.c(228): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.ci_cont_flatinitial/variances [129x1x1 array]
+gau 0 <= 0
+gau 1 <= 0
+gau 2 <= 0
+gau 3 <= 0
+gau 4 <= 0
+gau 5 <= 0
+gau 6 <= 0
+gau 7 <= 0
+gau 8 <= 0
+gau 9 <= 0
+gau 10 <= 0
+gau 11 <= 0
+gau 12 <= 0
+gau 13 <= 0
+gau 14 <= 0
+gau 15 <= 0
+gau 16 <= 0
+gau 17 <= 0
+gau 18 <= 0
+gau 19 <= 0
+gau 20 <= 0
+gau 21 <= 0
+gau 22 <= 0
+gau 23 <= 0
+gau 24 <= 0
+gau 25 <= 0
+gau 26 <= 0
+gau 27 <= 0
+gau 28 <= 0
+gau 29 <= 0
+gau 30 <= 0
+gau 31 <= 0
+gau 32 <= 0
+gau 33 <= 0
+gau 34 <= 0
+gau 35 <= 0
+gau 36 <= 0
+gau 37 <= 0
+gau 38 <= 0
+gau 39 <= 0
+gau 40 <= 0
+gau 41 <= 0
+gau 42 <= 0
+gau 43 <= 0
+gau 44 <= 0
+gau 45 <= 0
+gau 46 <= 0
+gau 47 <= 0
+gau 48 <= 0
+gau 49 <= 0
+gau 50 <= 0
+gau 51 <= 0
+gau 52 <= 0
+gau 53 <= 0
+gau 54 <= 0
+gau 55 <= 0
+gau 56 <= 0
+gau 57 <= 0
+gau 58 <= 0
+gau 59 <= 0
+gau 60 <= 0
+gau 61 <= 0
+gau 62 <= 0
+gau 63 <= 0
+gau 64 <= 0
+gau 65 <= 0
+gau 66 <= 0
+gau 67 <= 0
+gau 68 <= 0
+gau 69 <= 0
+gau 70 <= 0
+gau 71 <= 0
+gau 72 <= 0
+gau 73 <= 0
+gau 74 <= 0
+gau 75 <= 0
+gau 76 <= 0
+gau 77 <= 0
+gau 78 <= 0
+gau 79 <= 0
+gau 80 <= 0
+gau 81 <= 0
+gau 82 <= 0
+gau 83 <= 0
+gau 84 <= 0
+gau 85 <= 0
+gau 86 <= 0
+gau 87 <= 0
+gau 88 <= 0
+gau 89 <= 0
+gau 90 <= 0
+gau 91 <= 0
+gau 92 <= 0
+gau 93 <= 0
+gau 94 <= 0
+gau 95 <= 0
+gau 96 <= 0
+gau 97 <= 0
+gau 98 <= 0
+gau 99 <= 0
+gau 100 <= 0
+gau 101 <= 0
+gau 102 <= 0
+gau 103 <= 0
+gau 104 <= 0
+gau 105 <= 0
+gau 106 <= 0
+gau 107 <= 0
+gau 108 <= 0
+gau 109 <= 0
+gau 110 <= 0
+gau 111 <= 0
+gau 112 <= 0
+gau 113 <= 0
+gau 114 <= 0
+gau 115 <= 0
+gau 116 <= 0
+gau 117 <= 0
+gau 118 <= 0
+gau 119 <= 0
+gau 120 <= 0
+gau 121 <= 0
+gau 122 <= 0
+gau 123 <= 0
+gau 124 <= 0
+gau 125 <= 0
+gau 126 <= 0
+gau 127 <= 0
+gau 128 <= 0
+Sun Mar 19 21:04:33 2017

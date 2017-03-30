@@ -1,0 +1,97 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-cntthresh	0.00001	1.000000e-05
+-csplitmax	100	2000
+-csplitmin	1	1
+-csplitthr	8e-4	0.000000e+00
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-meanfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/means
+-mixwfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/mixture_weights
+-moddeffn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.untied.mdef
+-mwfloor	1e-4	1.000000e-08
+-phone			hj
+-psetfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.tree_questions
+-ssplitmax	5	7
+-ssplitmin	1	1
+-ssplitthr	8e-4	0.000000e+00
+-state			1
+-stwt			1.0,0.05,0.0,
+-treefn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/trees/ru_base.unpruned/hj-1.dtree
+-ts2cbfn	.semi.	.cont.
+-varfloor	0.00001	1.000000e-05
+-varfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/variances
+
+INFO: main.c(223): Reading: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.untied.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 9415 total models defined (43 base, 9372 tri)
+INFO: model_def_io.c(575): 37660 total states
+INFO: model_def_io.c(576): 28245 total tied states
+INFO: model_def_io.c(577): 129 total tied CI states
+INFO: model_def_io.c(578): 43 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(242): Building trees for [hj a0 e0 i] through [hj u0 i0 i]
+INFO: main.c(269): Covering states |[7890 7907]| == 18
+INFO: main.c(275): Reading: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/mixture_weights
+INFO: s3mixw_io.c(173): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/mixture_weights [18x1x1 array]
+INFO: main.c(311): 6 of 6 models have observation count greater than 0.000010
+INFO: main.c(95): nrm stwt: 0.045 0.909 0.045 
+INFO: s3gau_io.c(169): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/means [28245x1x1 array]
+INFO: s3gau_io.c(169): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/variances [28245x1x1 array]
+INFO: main.c(549): Reading: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.tree_questions
+INFO: main.c(588): 180 total simple questions (172 phone; 8 word bndry)
+INFO: main.c(590): 42 Left Only questions, and 42 Right Only questions
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION15 -1 -6.346e+04 5.254e+02 3.138e+02
+|    ( QUESTION20 1 -5.736e+04 3.681e+02 2.848e+02
+|        ( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+|            ( - -9.282e+03 2 0)
+|            ( - -1.027e+04 1 0))
+|        ( - -3.713e+04 1 0))
+|    ( QUESTION0 -1 -5.570e+03 1.343e+02 2.900e+01
+|        ( - -1.099e+03 1 0)
+|        ( - -4.336e+03 1 0)))
+s>    ( QUESTION15 -1 -6.346e+04 5.254e+02 3.138e+02
+s>        ( QUESTION20 1 -5.736e+04 3.681e+02 2.848e+02
+s>            ( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+s>                ( - -9.282e+03 2 0)
+s>                ( - -1.027e+04 1 0))
+s>            ( - -3.713e+04 1 0))
+s>        ( QUESTION0 -1 -5.570e+03 1.343e+02 2.900e+01
+s>            ( - -1.099e+03 1 0)
+s>            ( - -4.336e+03 1 0)))INFO: dtree.c(1315): Comp split 0
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION20 1 -5.736e+04 3.681e+02 2.848e+02
+|    ( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+|        ( - -9.282e+03 2 0)
+|        ( - -1.027e+04 1 0))
+|    ( - -3.713e+04 1 0))
+s>    ( QUESTION20 1 -5.736e+04 3.681e+02 2.848e+02
+s>        ( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+s>            ( - -9.282e+03 2 0)
+s>            ( - -1.027e+04 1 0))
+s>        ( - -3.713e+04 1 0))INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION0 -1 -5.570e+03 1.343e+02 2.900e+01
+|    ( - -1.099e+03 1 0)
+|    ( - -4.336e+03 1 0))
+s>    ( QUESTION0 -1 -5.570e+03 1.343e+02 2.900e+01
+s>        ( - -1.099e+03 1 0)
+s>        ( - -4.336e+03 1 0))INFO: dtree.c(1315): Comp split 1
+INFO: dtree.c(1439): stop. leaf nodes are specific
+INFO: dtree.c(1478): Final simple tree
+|( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+|    ( - -9.282e+03 2 0)
+|    ( - -1.027e+04 1 0))
+s>    ( QUESTION16 -1 -1.986e+04 3.065e+02 1.009e+02
+s>        ( - -9.282e+03 2 0)
+s>        ( - -1.027e+04 1 0))INFO: dtree.c(1315): Comp split 2
+INFO: dtree.c(1315): Comp split 3
+INFO: dtree.c(1315): Comp split 4
+INFO: dtree.c(1318): stop. leaf nodes are specific
+Sun Mar 19 21:50:49 2017

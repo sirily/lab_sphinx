@@ -1,0 +1,62 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/means
+-mixwfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/transition_matrices
+-varfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/mixw_counts [2129x1x8 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/gauden_counts with means with vars (2pass) [2129x1x8 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 2129, n_stream= 1, n_density= 8
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/mixture_weights [2129x1x8 array]
+INFO: s3tmat_io.c(176): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/transition_matrices [43x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/means [2129x1x8 array]
+INFO: s3gau_io.c(228): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/variances [2129x1x8 array]
+Mon Mar 20 21:45:45 2017
+Current Overall Likelihood Per Frame = -148.202291228007
+Convergence ratio = 0.0897096067478458

@@ -1,0 +1,147 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-imoddeffn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.alltriphones.mdef
+-omoddeffn		/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.2000.mdef
+-psetfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.tree_questions
+-treedir		/home/ilya/Рабочий стол/lab_sphinx/ru_base/trees/ru_base.2000
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 47307 total models defined (43 base, 47264 tri)
+INFO: model_def_io.c(575): 189228 total states
+INFO: model_def_io.c(576): 141921 total tied states
+INFO: model_def_io.c(577): 129 total tied CI states
+INFO: model_def_io.c(578): 43 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(93): Reading: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_architecture/ru_base.tree_questions
+INFO: main.c(124): a0-0: offset 129
+INFO: main.c(124): a0-1: offset 187
+INFO: main.c(124): a0-2: offset 277
+INFO: main.c(124): b-0: offset 353
+INFO: main.c(124): b-1: offset 363
+INFO: main.c(124): b-2: offset 375
+INFO: main.c(124): bj-0: offset 385
+INFO: main.c(124): bj-1: offset 389
+INFO: main.c(124): bj-2: offset 390
+INFO: main.c(124): c-0: offset 392
+INFO: main.c(124): c-1: offset 395
+INFO: main.c(124): c-2: offset 397
+INFO: main.c(124): ch-0: offset 400
+INFO: main.c(124): ch-1: offset 408
+INFO: main.c(124): ch-2: offset 415
+INFO: main.c(124): d-0: offset 427
+INFO: main.c(124): d-1: offset 442
+INFO: main.c(124): d-2: offset 452
+INFO: main.c(124): dj-0: offset 462
+INFO: main.c(124): dj-1: offset 466
+INFO: main.c(124): dj-2: offset 469
+INFO: main.c(124): e0-0: offset 474
+INFO: main.c(124): e0-1: offset 533
+INFO: main.c(124): e0-2: offset 592
+INFO: main.c(124): f-0: offset 647
+INFO: main.c(124): f-1: offset 648
+INFO: main.c(124): f-2: offset 649
+INFO: main.c(124): fj-0: offset 650
+INFO: main.c(124): fj-1: offset 651
+INFO: main.c(124): fj-2: offset 652
+INFO: main.c(124): g-0: offset 653
+INFO: main.c(124): g-1: offset 666
+INFO: main.c(124): g-2: offset 678
+INFO: main.c(124): gj-0: offset 691
+INFO: main.c(124): gj-1: offset 692
+INFO: main.c(124): gj-2: offset 694
+INFO: main.c(124): h-0: offset 696
+INFO: main.c(124): h-1: offset 703
+INFO: main.c(124): h-2: offset 714
+INFO: main.c(124): hj-0: offset 724
+INFO: main.c(124): hj-1: offset 725
+INFO: main.c(124): hj-2: offset 726
+INFO: main.c(124): i0-0: offset 727
+INFO: main.c(124): i0-1: offset 775
+INFO: main.c(124): i0-2: offset 827
+INFO: main.c(124): j-0: offset 882
+INFO: main.c(124): j-1: offset 903
+INFO: main.c(124): j-2: offset 934
+INFO: main.c(124): k-0: offset 965
+INFO: main.c(124): k-1: offset 987
+INFO: main.c(124): k-2: offset 1001
+INFO: main.c(124): kj-0: offset 1015
+INFO: main.c(124): kj-1: offset 1020
+INFO: main.c(124): kj-2: offset 1022
+INFO: main.c(124): l-0: offset 1024
+INFO: main.c(124): l-1: offset 1040
+INFO: main.c(124): l-2: offset 1063
+INFO: main.c(124): lj-0: offset 1082
+INFO: main.c(124): lj-1: offset 1097
+INFO: main.c(124): lj-2: offset 1112
+INFO: main.c(124): m-0: offset 1127
+INFO: main.c(124): m-1: offset 1140
+INFO: main.c(124): m-2: offset 1159
+INFO: main.c(124): mj-0: offset 1174
+INFO: main.c(124): mj-1: offset 1178
+INFO: main.c(124): mj-2: offset 1183
+INFO: main.c(124): n-0: offset 1189
+INFO: main.c(124): n-1: offset 1213
+INFO: main.c(124): n-2: offset 1235
+INFO: main.c(124): nj-0: offset 1253
+INFO: main.c(124): nj-1: offset 1262
+INFO: main.c(124): nj-2: offset 1270
+INFO: main.c(124): o0-0: offset 1277
+INFO: main.c(124): o0-1: offset 1341
+INFO: main.c(124): o0-2: offset 1434
+INFO: main.c(124): p-0: offset 1498
+INFO: main.c(124): p-1: offset 1514
+INFO: main.c(124): p-2: offset 1521
+INFO: main.c(124): pj-0: offset 1529
+INFO: main.c(124): pj-1: offset 1533
+INFO: main.c(124): pj-2: offset 1534
+INFO: main.c(124): r-0: offset 1535
+INFO: main.c(124): r-1: offset 1550
+INFO: main.c(124): r-2: offset 1561
+INFO: main.c(124): rj-0: offset 1573
+INFO: main.c(124): rj-1: offset 1579
+INFO: main.c(124): rj-2: offset 1584
+INFO: main.c(124): s-0: offset 1591
+INFO: main.c(124): s-1: offset 1609
+INFO: main.c(124): s-2: offset 1631
+INFO: main.c(124): sch-0: offset 1651
+INFO: main.c(124): sch-1: offset 1654
+INFO: main.c(124): sch-2: offset 1657
+INFO: main.c(124): sh-0: offset 1660
+INFO: main.c(124): sh-1: offset 1667
+INFO: main.c(124): sh-2: offset 1675
+INFO: main.c(124): sj-0: offset 1682
+INFO: main.c(124): sj-1: offset 1692
+INFO: main.c(124): sj-2: offset 1703
+INFO: main.c(124): t-0: offset 1712
+INFO: main.c(124): t-1: offset 1731
+INFO: main.c(124): t-2: offset 1746
+INFO: main.c(124): tj-0: offset 1762
+INFO: main.c(124): tj-1: offset 1769
+INFO: main.c(124): tj-2: offset 1776
+INFO: main.c(124): u0-0: offset 1786
+INFO: main.c(124): u0-1: offset 1822
+INFO: main.c(124): u0-2: offset 1865
+INFO: main.c(124): v-0: offset 1911
+INFO: main.c(124): v-1: offset 1934
+INFO: main.c(124): v-2: offset 1964
+INFO: main.c(124): vj-0: offset 1988
+INFO: main.c(124): vj-1: offset 1997
+INFO: main.c(124): vj-2: offset 2007
+INFO: main.c(124): y0-0: offset 2019
+INFO: main.c(124): y0-1: offset 2032
+INFO: main.c(124): y0-2: offset 2050
+INFO: main.c(124): z-0: offset 2073
+INFO: main.c(124): z-1: offset 2082
+INFO: main.c(124): z-2: offset 2093
+INFO: main.c(124): zh-0: offset 2104
+INFO: main.c(124): zh-1: offset 2111
+INFO: main.c(124): zh-2: offset 2116
+INFO: main.c(124): zj-0: offset 2122
+INFO: main.c(124): zj-1: offset 2125
+INFO: main.c(124): zj-2: offset 2127
+INFO: main.c(145): n_seno= 2129
+Mon Mar 20 21:40:49 2017

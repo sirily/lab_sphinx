@@ -1,0 +1,122 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6,/home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/means
+-mixwfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/transition_matrices
+-varfn			/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_4/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_5/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_3/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_2/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_8/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_7/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_6/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1
+INFO: s3mixw_io.c(117): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/mixw_counts [28245x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/tmat_counts [43x3x4 array]
+INFO: s3gau_io.c(386): Read /home/ilya/Рабочий стол/lab_sphinx/ru_base/bwaccumdir/ru_base_buff_1/gauden_counts with means with vars (2pass) [28245x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 28245, n_stream= 1, n_density= 1
+WARN: "gauden.c", line 1565: (mgau= 1125, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 1126, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 1127, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 2019, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 2020, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 2021, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 3501, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 3502, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 3503, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 4920, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 4921, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 4922, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 10422, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 10423, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 10424, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11385, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11386, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11387, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11493, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11494, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 11495, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 14421, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 14422, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 14423, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16800, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16801, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16802, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16959, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16960, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 16961, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 19218, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 19219, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 19220, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20655, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20656, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20657, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20895, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20896, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20897, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20979, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20980, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 20981, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 22200, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 22201, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 22202, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24465, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24466, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24467, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24696, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24697, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24698, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24765, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24766, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 24767, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 27684, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 27685, feat= 0, density= 0) never observed
+WARN: "gauden.c", line 1565: (mgau= 27686, feat= 0, density= 0) never observed
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/mixture_weights [28245x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/transition_matrices [43x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/means [28245x1x1 array]
+INFO: s3gau_io.c(228): Wrote /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_untied/variances [28245x1x1 array]
+Sun Mar 19 21:50:39 2017
+Current Overall Likelihood Per Frame = -148.85656321174
+Convergence ratio = 0.0264302575236854
+Likelihoods have converged! Baum Welch training completed!
+******************************TRAINING COMPLETE*************************
+Sun Mar 19 21:50:39 2017

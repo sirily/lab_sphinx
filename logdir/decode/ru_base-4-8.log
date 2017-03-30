@@ -1,0 +1,243 @@
+        INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-allphone				
+-allphone_ci		yes		yes
+-alpha			0.97		9.700000e-01
+-ascale			20.0		2.000000e+01
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-80
+-bestpath		yes		yes
+-bestpathlw		9.5		1.000000e+01
+-ceplen			13		13
+-cmn			live		batch
+-cmninit		40,3,-1		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-08
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-80
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		1.000000e+01
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		1.000000e-40
+-fwdtree		yes		yes
+-hmm					/home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000
+-input_endian		little		little
+-jsgf					
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-01
+-kws_threshold		1e-30		1.000000e-30
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					/home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base_test.lm.DMP
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+00
+-logfn					
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-lpbeam			1e-40		1.000000e-80
+-lponlybeam		7e-29		1.000000e-80
+-lw			6.5		1.000000e+01
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-07
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+00
+-pbeam			1e-48		1.000000e-80
+-pip			1.0		1.000000e+00
+-pl_beam		1e-10		1.000000e-10
+-pl_pbeam		1e-10		1.000000e-10
+-pl_pip			1.0		1.000000e+00
+-pl_weight		3.0		3.000000e+00
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-03
+-smoothspec		no		no
+-svspec					
+-tmat					
+-tmatfloor		0.0001		1.000000e-04
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-uw			1.0		1.000000e+00
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+00
+-var					
+-varfloor		0.0001		1.000000e-04
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		1.000000e-40
+-wip			0.65		2.000000e-01
+-wlen			0.025625	2.562500e-02
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: mdef.c(518): Reading model definition: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/mdef
+INFO: bin_mdef.c(181): Allocating 50379 * 8 bytes (393 KiB) for CD tree
+INFO: tmat.c(149): Reading HMM transition probability matrices: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/transition_matrices
+INFO: acmod.c(113): Attempting to use PTM computation module
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/means
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/variances
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(304): 79 variance values floored
+INFO: ptm_mgau.c(804): Number of codebooks exceeds 256: 2129
+INFO: acmod.c(115): Attempting to use semi-continuous computation module
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/means
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/variances
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(304): 79 variance values floored
+INFO: acmod.c(117): Falling back to general multi-stream GMM computation
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/means
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(127): Reading mixture gaussian parameter: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/variances
+INFO: ms_gauden.c(242): 2129 codebook, 1 feature, size: 
+INFO: ms_gauden.c(244):  16x39
+INFO: ms_gauden.c(304): 79 variance values floored
+INFO: ms_senone.c(149): Reading senone mixture weights: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/mixture_weights
+INFO: ms_senone.c(200): Truncating senone logs3(pdf) values by 10 bits
+INFO: ms_senone.c(207): Not transposing mixture weights in memory
+INFO: ms_senone.c(268): Read mixture weights for 2129 senones: 1 features x 16 codewords
+INFO: ms_senone.c(320): Mapping senones to individual codebooks
+INFO: ms_mgau.c(144): The value of topn: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 7581 * 32 bytes (236 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: /home/ilya/Рабочий стол/lab_sphinx/ru_base/etc/ru_base.dic
+INFO: dict.c(213): Dictionary size 3482, allocated 47 KiB for strings, 48 KiB for phones
+INFO: dict.c(336): 3482 words read
+INFO: dict.c(358): Reading filler dictionary: /home/ilya/Рабочий стол/lab_sphinx/ru_base/model_parameters/ru_base.cd_cont_2000/noisedict
+INFO: dict.c(213): Dictionary size 3485, allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 3 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 43^3 * 2 bytes (155 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 44720 bytes (43 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 44720 bytes (43 KiB) for single-phone word triphones
+INFO: ngram_model_trie.c(354): Trying to read LM in trie binary format
+INFO: ngram_search_fwdtree.c(74): Initializing search tree
+INFO: ngram_search_fwdtree.c(101): 327 unique initial diphones
+INFO: ngram_search_fwdtree.c(186): Creating search channels
+INFO: ngram_search_fwdtree.c(323): Max nonroot chan increased to 11755
+INFO: ngram_search_fwdtree.c(333): Created 327 root, 11627 non-root channels, 17 single-phone words
+INFO: ngram_search_fwdflat.c(157): fwdflat: min_ef_width = 4, max_sf_win = 25
+INFO: batch.c(729): Decoding 'test-speaker/wav/ru_0059'
+INFO: cmn.c(133): CMN: 29.11  0.04  2.14  4.33 -7.98 16.62 -10.72 -4.08 -3.93  4.19  6.91 -2.10 -3.10 
+INFO: ngram_search.c(459): Resized backpointer table to 10000 entries
+INFO: ngram_search.c(467): Resized score stack to 200000 entries
+INFO: ngram_search.c(459): Resized backpointer table to 20000 entries
+INFO: ngram_search.c(467): Resized score stack to 400000 entries
+INFO: ngram_search_fwdtree.c(1550):    13621 words recognized (14/fr)
+INFO: ngram_search_fwdtree.c(1552):  1388207 senones evaluated (1394/fr)
+INFO: ngram_search_fwdtree.c(1556):  3883685 channels searched (3899/fr), 261466 1st, 1799317 last
+INFO: ngram_search_fwdtree.c(1559):   126575 words for which last channels evaluated (127/fr)
+INFO: ngram_search_fwdtree.c(1561):   143151 candidate words for entering last phone (143/fr)
+INFO: ngram_search_fwdtree.c(1564): fwdtree 2.85 CPU 0.286 xRT
+INFO: ngram_search_fwdtree.c(1567): fwdtree 2.92 wall 0.293 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 457 words
+INFO: ngram_search_fwdflat.c(948):     4551 words recognized (5/fr)
+INFO: ngram_search_fwdflat.c(950):   366829 senones evaluated (368/fr)
+INFO: ngram_search_fwdflat.c(952):   452400 channels searched (454/fr)
+INFO: ngram_search_fwdflat.c(954):    46525 words searched (46/fr)
+INFO: ngram_search_fwdflat.c(957):    45546 word transitions (45/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.40 CPU 0.040 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.41 wall 0.041 xRT
+INFO: ngram_search.c(1250): lattice start node <s>.0 end node </s>.980
+INFO: ngram_search.c(1276): Eliminated 0 nodes before end node
+INFO: ngram_search.c(1381): Lattice has 841 nodes, 1615 links
+INFO: ps_lattice.c(1380): Bestpath score: -41851
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:980:994) = -2798213
+INFO: ps_lattice.c(1441): Joint P(O,S) = -2848137 P(S|O) = -49924
+INFO: ngram_search.c(872): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(875): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(761): test-speaker/wav/ru_0059: 9.95 seconds speech, 3.25 seconds CPU, 3.33 seconds wall
+INFO: batch.c(763): test-speaker/wav/ru_0059: 0.33 xRT (CPU), 0.33 xRT (elapsed)
+я не это дерьмо вычерпывали ведром и заливали в свою бочку причем отец как более опытный специалист спускался в яму а сын сверху подавал ему ведро (test-speaker/wav/ru_0059 -42309)
+test-speaker/wav/ru_0059 done --------------------------------------
+INFO: batch.c(729): Decoding 'test-speaker/wav/ru_0060'
+INFO: cmn.c(133): CMN: 27.60 -2.79  5.72  5.55 -7.71 24.87 -12.64 -3.78  0.30  6.34  4.79 -1.88  1.83 
+INFO: ngram_search_fwdtree.c(1550):     2746 words recognized (6/fr)
+INFO: ngram_search_fwdtree.c(1552):   594079 senones evaluated (1398/fr)
+INFO: ngram_search_fwdtree.c(1556):  1507615 channels searched (3547/fr), 112226 1st, 475677 last
+INFO: ngram_search_fwdtree.c(1559):    33251 words for which last channels evaluated (78/fr)
+INFO: ngram_search_fwdtree.c(1561):    71318 candidate words for entering last phone (167/fr)
+INFO: ngram_search_fwdtree.c(1564): fwdtree 0.66 CPU 0.155 xRT
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.67 wall 0.159 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 140 words
+INFO: ngram_search_fwdflat.c(948):      736 words recognized (2/fr)
+INFO: ngram_search_fwdflat.c(950):    66261 senones evaluated (156/fr)
+INFO: ngram_search_fwdflat.c(952):    60758 channels searched (142/fr)
+INFO: ngram_search_fwdflat.c(954):     7619 words searched (17/fr)
+INFO: ngram_search_fwdflat.c(957):     9571 word transitions (22/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.06 CPU 0.015 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.07 wall 0.015 xRT
+INFO: ngram_search.c(1250): lattice start node <s>.0 end node </s>.385
+INFO: ngram_search.c(1276): Eliminated 0 nodes before end node
+INFO: ngram_search.c(1381): Lattice has 152 nodes, 48 links
+INFO: ps_lattice.c(1380): Bestpath score: -10796
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:385:423) = -694533
+INFO: ps_lattice.c(1441): Joint P(O,S) = -706582 P(S|O) = -12049
+INFO: ngram_search.c(872): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(875): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(761): test-speaker/wav/ru_0060: 4.24 seconds speech, 0.72 seconds CPU, 0.74 seconds wall
+INFO: batch.c(763): test-speaker/wav/ru_0060: 0.17 xRT (CPU), 0.17 xRT (elapsed)
+он открыл дверь в спальню где после смерти кати он никогда не ночевал (test-speaker/wav/ru_0060 -11027)
+test-speaker/wav/ru_0060 done --------------------------------------
+INFO: batch.c(778): TOTAL 14.19 seconds speech, 3.98 seconds CPU, 4.07 seconds wall
+INFO: batch.c(780): AVERAGE 0.28 xRT (CPU), 0.29 xRT (elapsed)
+INFO: ngram_search_fwdtree.c(429): TOTAL fwdtree 3.51 CPU 0.247 xRT
+INFO: ngram_search_fwdtree.c(432): TOTAL fwdtree 3.59 wall 0.253 xRT
+INFO: ngram_search_fwdflat.c(176): TOTAL fwdflat 0.46 CPU 0.033 xRT
+INFO: ngram_search_fwdflat.c(179): TOTAL fwdflat 0.47 wall 0.033 xRT
+INFO: ngram_search.c(303): TOTAL bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(306): TOTAL bestpath 0.00 wall 0.000 xRT
+Fri Mar 31 00:35:50 2017

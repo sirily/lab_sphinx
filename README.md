@@ -1,22 +1,18 @@
-# This project contains the acoustic models and log files, as long as several language models trained on voxforge and open subtitles data.
+## Files and guide which helps to create language acoustic model.
 
-1) https://github.com/sirily/ru_base/tree/master/etc
+This project contains materials for creating a Russian language acoustic model:
 
-contains language models (8 hours of speech), dictionary, phonemes and parameteres of training.
+- Guidelines.pdf contains full guide about work process and description of project files (in Russian only);
 
-2) https://github.com/sirily/ru_base/tree/master/model_architecture
+- /ru_base contains language models (8 hours of speech), dictionary, phonemes, parameteres of training and training data;
 
-contains model architecture
+- /scripts contains utility scripts which are not really  necessary;
 
-3) https://github.com/sirily/ru_base/tree/master/model_parameters
+- /theory contains some must know information about linux and speech recongnition fundamentals.
 
-contains model parameters
+ru_base/etc/ru_base_large.lm and ru_base/lm_train_data.txt are compressed due to github size restrictions.
 
-4) https://github.com/sirily/ru_base/tree/master/result
-
-the result of ru_base_test.lm model which implements kws mode
-
-# Table of results
+#### Some trained model results
 1) CI, 8 DEN: 
 
 TOTAL Words: 197 Correct: 114 Errors: 94

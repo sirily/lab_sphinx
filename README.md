@@ -4,7 +4,7 @@ This project contains materials for creating a Russian language acoustic model:
 
 - Guidelines.pdf contains full guide about work process and description of project files (in Russian only);
 
-- /ru_base contains language models (8 hours of speech), dictionary, phonemes, parameteres of training and training data;
+- /ru_base contains **already trained** language models (8 hours of speech), dictionary, phonemes, parameteres of training and **prepared** training data (so you don't need to run prepare_ scripts from /scripts folder. You can do it, if you download raw data);
 
 - /scripts contains utility scripts which are not really  necessary;
 

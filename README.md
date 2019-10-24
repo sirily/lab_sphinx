@@ -1,5 +1,6 @@
 ## Files and guide which helps to create language acoustic model.
 
+This project was made with @gorinars as laboratory work for BMSTU.
 This project contains materials for creating a Russian language acoustic model:
 
 - Guidelines.pdf contains full guide about work process and description of project files (in Russian only);
